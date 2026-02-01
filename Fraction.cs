@@ -12,11 +12,9 @@ namespace LastStand
     {
         public string Name;
         public List<Squad> Formations;
-        public ConsoleColor Color;
-        public Fraction (string name, List<Squad> formations, ConsoleColor color)
         {
-            Name = name;
-            Formations = formations;
+        Name = name;
+        Formations = formations;
             Color = color;
         }
     }
