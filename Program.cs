@@ -2,4 +2,5 @@
 using System.Security.AccessControl;
 
 var battle = new TheBattle();
-battle.Report();
+
+battle.RasNaRas();
